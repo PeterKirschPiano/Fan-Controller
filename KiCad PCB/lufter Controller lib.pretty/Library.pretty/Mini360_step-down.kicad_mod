@@ -1,0 +1,137 @@
+(footprint "Mini360_step-down"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "2680c9c5-69a1-4fd9-8454-7e5096a6922f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini360"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "c5d9571d-b99c-4452-8534-97b282221296")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61d5e667-e882-42ed-bded-4e3b6ffc8200")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3107335c-7267-46b1-872f-de99ca6f8f9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.5 -6)
+		(end -9.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a91c699-5a2c-4c33-b255-5e15cbdbcaf3")
+	)
+	(fp_line
+		(start -9.5 -6)
+		(end 9.5 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04a4fe49-abf4-4c79-9c05-a7fc03ba479c")
+	)
+	(fp_line
+		(start 9.5 6)
+		(end -9.5 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3de98d41-8042-44f6-be38-79cdf2049ccf")
+	)
+	(fp_line
+		(start 9.5 6)
+		(end 9.5 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0227a2a-be96-4236-8b91-872ea0543a03")
+	)
+	(pad "1" thru_hole oval
+		(at -7.62 -4.57)
+		(size 2.5 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b4f3af1-6bc6-4712-99d6-2ff5cc69cbbc")
+	)
+	(pad "2" thru_hole oval
+		(at -7.62 4.57)
+		(size 2.5 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b33b1bc3-f632-4661-bc90-63d61536ef30")
+	)
+	(pad "3" thru_hole oval
+		(at 7.62 -4.57)
+		(size 2.5 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "079692d8-4044-4e84-ba1c-4e2b55ea22d1")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 4.57)
+		(size 2.5 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae5b831d-6557-4615-82e2-17eed5d072ac")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/mini360-dc-dc-step-down-module-1.snapshot.2/mini360.step"
+		(offset
+			(xyz 9 6 -0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
